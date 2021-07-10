@@ -43,7 +43,7 @@ i use Ros  Melodic and ubuntu-18.04 to SLAM approach to create and save a map
   ![wfawfaef](https://user-images.githubusercontent.com/60845044/125177927-8ed63f80-e1e8-11eb-9009-c427be41c066.png)
 ## Run Teleoperation Node to control
   - `$ export TURTLEBOT3_MODEL=burger`
-  - `$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+  - `$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
 
  Control Your TurtleBot3!
  ---------------------------
