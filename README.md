@@ -7,8 +7,8 @@ i use Ros  Melodic and ubuntu-18.04 to SLAM approach to create and save a map
 - `$ sudo apt upgrade`
 - `$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_melodic.sh
 `
--`$ chmod 755 ./install_ros_melodic.sh `
--`$ bash ./install_ros_melodic.sh`
+- `$ chmod 755 ./install_ros_melodic.sh `
+- `$ bash ./install_ros_melodic.sh`
 
 ## Install Dependent ROS 1 Packages
 - `$ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
@@ -27,23 +27,23 @@ i use Ros  Melodic and ubuntu-18.04 to SLAM approach to create and save a map
   - `$ sudo apt-get install ros-melodic-turtlebot3`
   
   ## Set TurtleBot3 Model Name
-  -`$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc`
-  -`$ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc`
+  - `$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc`
+  - `$ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc`
   
   ## Launch Simulation World
-  -`$ export TURTLEBOT3_MODEL=burger`
-  -`$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
+  - `$ export TURTLEBOT3_MODEL=burger`
+  - `$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
 
  ## Run SLAM Node
-  -`$ export TURTLEBOT3_MODEL=burger`
-  -`$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`
+  - `$ export TURTLEBOT3_MODEL=burger`
+  - `$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`
   
   
   
   ![wfawfaef](https://user-images.githubusercontent.com/60845044/125177927-8ed63f80-e1e8-11eb-9009-c427be41c066.png)
 ## Run Teleoperation Node to control
-  -`$ export TURTLEBOT3_MODEL=burger`
-  -`$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+  - `$ export TURTLEBOT3_MODEL=burger`
+  - `$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
  Control Your TurtleBot3!
  ---------------------------
@@ -62,5 +62,5 @@ i use Ros  Melodic and ubuntu-18.04 to SLAM approach to create and save a map
 
 
 ## to save a map
--`$ rosrun map_server map_saver -f ~/map
+- `$ rosrun map_server map_saver -f ~/map
 `
